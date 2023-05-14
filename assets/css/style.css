@@ -29,3 +29,62 @@ section {
 .container {
   max-width: 1500px;
 }
+
+.navbar {
+  border: 1px solid blue;
+}
+
+.navbar .nav-wrapper {
+  border: 1px solid red;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.nav-wrapper .logo {
+  font-size: 2.8rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.nav-wrapper .logo span {
+  font-size: 1.8rem;
+  color: var(--second-color);
+}
+
+.nav-wrapper .menu-wrapper {
+  border: 1px solid yellow;
+  display: flex;
+  gap: 70px;
+}
+
+.nav-wrapper .menu-wrapper .menu {
+  display: flex;
+  gap: 50px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.menu-wrapper .menu .menu-link {
+  font-size: 1.25rem;
+  color: var(--main-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+}
+
+.menu-wrapper .menu .menu-link.active {
+  font-weight: 700;
+  color: var(--second-color);
+}
+
+.menu-wrapper .btn-member {
+  font-family: var(--heading-font);
+  color: #fff;
+  font-weight: 600;
+  background-color: var(--second-color);
+  padding: 25px 30px;
+  border-radius: 50px;
+}
