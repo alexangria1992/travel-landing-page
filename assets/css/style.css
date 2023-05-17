@@ -301,7 +301,7 @@ section {
 }
 
 .row2 .box-service {
-  border: 1px solid lightgoldenrodyellow;
+  /* border: 1px solid lightgoldenrodyellow; */
   max-width: 300px;
   text-align: center;
   padding: 30px;
@@ -340,6 +340,132 @@ section {
 }
 
 .btn-learn a {
+  color: #fff;
+}
+
+/* Product */
+.product .product-wrapper {
+  /* background: orange; */
+  margin: auto;
+}
+
+.product-wrapper .row1 {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row1 .label-product {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--second-color);
+}
+
+.row1 .heading-product {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: var(--heading-font);
+  color: #000000;
+  margin-top: 10px;
+}
+
+.row1 .toggle-slider i {
+  font-size: 2.5rem;
+  color: var(--main-color);
+}
+
+.product-wrapper .row2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-bottom: 2px;
+}
+
+.product-wrapper .card-product {
+  /* background-color: var(--main-color); */
+  width: 400px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 0;
+  border-radius: 20px;
+  overflow-y: hidden;
+}
+
+.card-product:hover .detail-product {
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+.row2 .detail-product {
+  background-color: rgba(255, 255, 255, 0.637);
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  padding: 30px;
+  border-radius: 20px;
+  border: 3px solid #fff;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.171);
+  transition: 0.5s ease-in-out;
+}
+
+.detail-product .category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid darkblue; */
+}
+
+.category .label-category {
+  padding: 5px 10px;
+  background-color: var(--second-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.category .price {
+  width: 70px;
+  height: 70px;
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-product .title-card h1 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--heading-font);
+  color: #4a4a4a;
+}
+
+.detail-product .review {
+  display: flex;
+  gap: 10px;
+}
+
+.review i {
+  color: rgb(224, 224, 12);
+}
+
+.detail-product .body-card {
+  margin: 20px 0;
+}
+
+.detail-product .btn-product {
+  background-color: var(--second-color);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 50px;
+}
+
+.btn-product a {
   color: #fff;
 }
 @media screen and (max-width: 991px) {
