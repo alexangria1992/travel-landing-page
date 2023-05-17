@@ -468,6 +468,51 @@ section {
 .btn-product a {
   color: #fff;
 }
+
+/* Banner 1 */
+.banner1 {
+  margin: 200px auto;
+  background-color: var(--main-color);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+
+.banner1 .heading {
+  font-family: var(--heading-font);
+  font-size: 40px;
+}
+
+.banner1 h3 {
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: rgb(248, 47, 248);
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.banner1 .btn-book a {
+  color: #fff;
+}
+
+.banner p {
+  font-size: 20px;
+  font-family: var(--heading-font);
+}
+
+.banner1 .content {
+  text-align: center;
+}
+
+.banner1 .btn-book {
+  background-color: var(--second-color);
+  padding: 20px 40px;
+  border-radius: 50px;
+}
+
 @media screen and (max-width: 991px) {
   .navbar .nav-wrapper {
     padding: 0 30px;
